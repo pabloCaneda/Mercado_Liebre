@@ -27,3 +27,89 @@ a {
     text-decoration: none;
     font-size: var(--size12);
 }
+
+main section article i {
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: 20px;
+}
+
+
+/*-------------------------------------------------------*/
+/* TABLET */
+
+@media (min-width: 361px) {
+    article {
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        width: calc(50% - 20px);
+    }
+        
+    .nav-menu {
+        display: inline;
+    }
+        
+    .cuenta {
+        display: inline;
+    }    
+        
+    #perfil {
+        display: inline;
+    }
+        
+    #ingresar {
+        display: inline;
+    }
+        
+    #mis-compras {
+        display: inline;
+    }    
+        
+    .nav-menu ul li a{
+        display: inline;
+    }
+    
+    .contein-info-product {
+        display: flex;
+        
+    }
+    
+    article {
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+    
+    .menu-burga {
+        display: none;
+    }
+}  
+    /*-------------------------------------------------------*/
+    /* Telefono */
+    
+    @media (max-width: 767px) {  
+        .nav-menu,
+        .cuenta {
+          display: none; 
+        }
+    .cuenta {
+        display: none;
+    }
+    .menu-burga {
+        display: block; 
+      }
+    }
+
+     /*-------------------------------------------------------*/
+    /* DESKTOP */
+    @media (min-width: 768px) {
+        .menu-burga {
+          display: none;
+    }
+    }
+
+        

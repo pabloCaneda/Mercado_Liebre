@@ -1,0 +1,38 @@
+.ft-descripcion {
+    font-size: var(--descripciones);
+} 
+.footer {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+    flex-direction: column;
+    padding: 0% 37% 0% 37%;}
+#tarjeta {
+
+    color: var(--celeste);
+    
+    font-size: 50px;
+    }
+    
+    #icon-envio {
+    
+    color: var(--celeste);
+    
+    margin-top: 100px;
+    
+    font-size: 50px;
+    }
+    
+    #icon-seguridad {
+    
+    color: var(--celeste);
+    
+    margin-top: 100px;
+    
+    font-size: 50px;
+    }
+    
+    #copyrigth {
+        margin-top: 71px;
+    }
